@@ -10,8 +10,7 @@
         "laravel/jetstream": "^5.1",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.0",
-        "laravel/nova": "^4.0"
+        "livewire/livewire": "^3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -65,12 +64,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-
-    "repositories": [
-    {
-        "type": "composer",
-        "url": "https://nova.laravel.com"
-    }
-]
+    "prefer-stable": true
 }
