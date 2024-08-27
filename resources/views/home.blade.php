@@ -411,7 +411,7 @@ Product Lightbox
                             <nav class="category-menu">
                                 <ul>
                                     <li><a href="shop.html"><img src="assets/img/icon/category_1_1.svg" alt="Icon">Fresh Vegetables</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_2.svg" alt="Icon">Grocery & Frozen</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_2.svg" alt="Icon">Vegetable Packages</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="shop.html"><img src="assets/img/icon/category_1_3.svg" alt="Icon">Fresh Fruits</a>
                                         <ul class="sub-menu">
@@ -421,13 +421,13 @@ Product Lightbox
                                             <li><a href="shop.html"><img src="assets/img/icon/category_1_7.svg" alt="Icon">Fresh Meat</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_4.svg" alt="Icon">Salad</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_5.svg" alt="Icon">Butter & Egg</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_6.svg" alt="Icon">Milk Cream</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_7.svg" alt="Icon">Fresh Meat</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_8.svg" alt="Icon">Fresh Fish</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_9.svg" alt="Icon">Coconut Oil</a></li>
-                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_10.svg" alt="Icon">Bread & Bakery</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_4.svg" alt="Icon">Hotels & Restaurants</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_5.svg" alt="Icon">Wholesale distribution</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_6.svg" alt="Icon">Create Vegetable Packages</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_7.svg" alt="Icon">Vegetables Sales</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_8.svg" alt="Icon">--</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_9.svg" alt="Icon">--</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_10.svg" alt="Icon">--</a></li>
                                 </ul>
                             </nav>
                         </div>

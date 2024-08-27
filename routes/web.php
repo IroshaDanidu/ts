@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+//
 
 Route::get('/', function () {
     return view('home');
@@ -15,3 +16,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('/product', [\App\Http\Controllers\ProductController::class, 'index']);

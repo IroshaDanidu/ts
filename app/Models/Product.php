@@ -17,14 +17,14 @@ class Product extends Model
         'status',
     ];
 
-    public function category()
-    {
-        return $this->hasMany(Category::class);
-    }
 
     public function variants()
     {
         return $this->hasMany(Variant::class);
     }
 
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
