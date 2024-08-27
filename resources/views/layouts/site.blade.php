@@ -1,627 +1,668 @@
 <!doctype html>
-<html lang="en" class="light-theme">
+<html class="no-js" lang="zxx">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.webp" type="image/webp" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Frutin - Organic and Healthy Food HTML Template - Home Mega Shop</title>
+    <meta name="author" content="Frutin">
+    <meta name="description" content="Frutin - Organic and Healthy Food HTML Template">
+    <meta name="keywords" content="Frutin - Organic and Healthy Food HTML Template">
+    <meta name="robots" content="INDEX,FOLLOW">
 
-    <!-- CSS files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <!-- Plugins -->
-    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/dark-theme.css" rel="stylesheet">
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <title>Shopingo - eCommerce HTML Template</title>
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
-<!--page loader-->
-<div class="loader-wrapper">
-    <div class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
-        <div class="spinner-border text-dark" role="status">
-            <span class="visually-hidden">Loading...</span>
+<body>
+
+
+<!--********************************
+       Code Start From Here
+******************************** -->
+
+<!--==============================
+ Preloader
+==============================-->
+<div class="preloader ">
+    <button class="th-btn preloaderCls">Cancel Preloader </button>
+    <div class="preloader-inner">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div><!--==============================
+Product Lightbox
+==============================-->
+<div id="QuickView" class="white-popup mfp-hide">
+    <div class="container bg-white rounded-10">
+        <div class="row gx-60">
+            <div class="col-lg-6">
+                <div class="product-big-img">
+                    <div class="img"><img src="assets/img/product/product_details_1_1.jpg" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <div class="product-about">
+                    <p class="price">$120.85<del>$150.99</del></p>
+                    <h2 class="product-title">Bosco Apple Fruit</h2>
+                    <div class="product-rating">
+                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
+                        <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                    </div>
+                    <p class="text">Prepare to embark on a sensory journey with the Bosco Apple, a fruit that transcends the ordinary and promises an unparalleled taste experience. These apples are nothing short of nature’s masterpiece, celebrated for their distinctive blend of flavors and their captivating visual allure.</p>
+                    <div class="mt-2 link-inherit">
+                        <p>
+                            <strong class="text-title me-3">Availability:</strong>
+                            <span class="stock in-stock"><i class="far fa-check-square me-2 ms-1"></i>In Stock</span>
+                        </p>
+                    </div>
+                    <div class="actions">
+                        <div class="quantity">
+                            <input type="number" class="qty-input" step="1" min="1" max="100" name="quantity" value="1" title="Qty">
+                            <button class="quantity-plus qty-btn"><i class="far fa-chevron-up"></i></button>
+                            <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
+                        </div>
+                        <button class="th-btn">Add to Cart</button>
+                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div class="product_meta">
+                        <span class="sku_wrapper">SKU: <span class="sku">Bosco-Apple-Fruit</span></span>
+                        <span class="posted_in">Category: <a href="shop.html">Fresh Fruits</a></span>
+                        <span>Tags: <a href="shop.html">Fruits</a><a href="shop.html">Organic</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    </div>
+</div><!--==============================
+    Sidemenu
+============================== -->
+<div class="sidemenu-wrapper sidemenu-cart d-none d-lg-block ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget woocommerce widget_shopping_cart">
+            <h3 class="widget_title">Shopping cart</h3>
+            <div class="widget_shopping_cart_content">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_thumb_1_1.jpg" alt="Cart Image">Bosco Apple Fruit</a>
+                        <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
+                            </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_thumb_1_2.jpg" alt="Cart Image">Green Cauliflower</a>
+                        <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
+                            </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_thumb_1_3.jpg" alt="Cart Image">Mandarin orange</a>
+                        <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
+                            </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_thumb_1_4.jpg" alt="Cart Image">Shallot Red onion</a>
+                        <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
+                            </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_thumb_1_5.jpg" alt="Cart Image">Sour Red Cherry</a>
+                        <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
+                            </span>
+                    </li>
+                </ul>
+                <p class="woocommerce-mini-cart__total total">
+                    <strong>Subtotal:</strong>
+                    <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
+                </p>
+                <p class="woocommerce-mini-cart__buttons buttons">
+                    <a href="cart.html" class="th-btn wc-forward">View cart</a>
+                    <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div><!--==============================
+    Sidemenu
+============================== -->
+<div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget  ">
+            <div class="th-widget-about">
+                <div class="about-logo">
+                    <a href="home-organic-farm.html"><img src="assets/img/logo.svg" alt="Frutin"></a>
+                </div>
+                <p class="about-text">We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.</p>
+                <div class="th-social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="widget  ">
+            <h3 class="widget_title">Contact Us</h3>
+            <div class="th-widget-contact">
+                <div class="info-box">
+                    <div class="info-box_icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <p class="info-box_text">8502 Preston Rd. Inglewood, Maine 98380</p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box_icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <p class="info-box_text">
+                        <a href="tel:+16326543564" class="info-box_link">+(163)-2654-3564</a>
+                        <a href="tel:+16326545432" class="info-box_link">+(163)-2654-5432</a>
+                    </p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box_icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <p class="info-box_text">
+                        <a href="mailto:help24/7@frutin.com" class="info-box_link">help24/7@frutin.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="widget newsletter-widget  ">
+            <h3 class="widget_title">Newsletter</h3>
+            <p class="footer-text">Sign up to get update news about us</p>
+            <form class="newsletter-form">
+                <input class="form-control" type="email" placeholder="Enter Email" required="">
+                <button type="submit" class="th-btn">Subscribe</button>
+            </form>
         </div>
     </div>
 </div>
-<!--end loader-->
+<div class="popup-search-box d-none d-lg-block">
+    <button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#">
+        <input type="text" placeholder="What are you looking for?">
+        <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+</div><!--==============================
+    Mobile Menu
+  ============================== -->
+<div class="th-menu-wrapper">
+    <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="home-organic-farm.html"><img src="assets/img/logo.svg" alt="Frutin"></a>
+        </div>
+        <div class="th-mobile-menu">
+            <ul>
+                <li class="menu-item-has-children">
+                    <a href="home-organic-farm.html">Home</a>
+                    <ul class="sub-menu">
+                        <li><a href="home-organic-farm.html">Organic Farm</a></li>
+                        <li><a href="home-organic-food.html">Organic Food</a></li>
+                        <li><a href="home-mega-shop.html">Mega Shop</a></li>
+                        <li><a href="home-organic-farming.html">Organic Farming</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="menu-item-has-children">
+                    <a href="#">Service</a>
+                    <ul class="sub-menu">
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item-has-children">
+                            <a href="#">Shop</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop-details.html">Shop Details</a></li>
+                                <li><a href="cart.html">Cart Page</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="team-details.html">Team Details</a></li>
+                        <li><a href="project.html">Project Gallery</a></li>
+                        <li><a href="project-details.html">Project Details</a></li>
+                        <li><a href="faq.html">Faq Page</a></li>
+                        <li><a href="error.html">Error Page</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">Blog</a>
+                    <ul class="sub-menu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div><!--==============================
+	Header Area
 
-<!--start top header-->
-<header class="top-header">
-    <nav class="navbar navbar-expand-xl w-100 navbar-dark container gap-3">
-        <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo.webp" class="logo-img" alt=""></a>
-        <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
-           data-bs-target="#offcanvasNavbar">
-            <i class="bi bi-list"></i>
-        </a>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
-            <div class="offcanvas-header">
-                <div class="offcanvas-logo"><img src="assets/images/logo.webp" class="logo-img" alt="">
+==============================-->
+<header class="th-header header-layout3">
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+                <div class="col-auto d-none d-lg-block">
+                    <p class="header-notice">Orders of $50 or more qualify for free shipping!</p>
                 </div>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body primary-menu">
-                <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-{{--                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="tv-shows.html"--}}
-{{--                           data-bs-toggle="dropdown">--}}
-{{--                            Categories--}}
-{{--                        </a>--}}
-{{--                        <div class="dropdown-menu dropdown-large-menu">--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col-12 col-xl-4">--}}
-{{--                                    <h6 class="large-menu-title">Clothing</h6>--}}
-{{--                                    <ul class="list-unstyled">--}}
-{{--                                        <li><a href="javascript:;">Dresses</a>--}}
-{{--                                        </li>--}}
-{{--                                        <li><a href="javascript:;">Tops</a>--}}
-{{--                                        </li>--}}
-{{--                                        <li><a href="javascript:;">Tshirts</a>--}}
-{{--                                        </li>--}}
-{{--                                        <li><a href="javascript:;">Pants</a>--}}
-{{--                                        </li>--}}
-{{--                                        <li><a href="javascript:;">Skirts</a>--}}
-{{--                                        </li>--}}
-
-
-{{--                                    </ul>--}}
-{{--                                </div>--}}
-{{--                                <!-- end col-3 -->--}}
-{{--                                <div class="col-12 col-xl-4">--}}
-{{--                                    <ul class="list-unstyled">--}}
-{{--                                        <li><a href="javascript:;">Pants</a>--}}
-{{--                                        </li>--}}
-{{--                                        <li><a href="javascript:;">Skirts</a>--}}
-{{--                                        </li>--}}
-
-{{--                                    </ul>--}}
-{{--                                </div>--}}
-{{--                                <!-- end col-3 -->--}}
-{{--                                <div class="col-12 col-xl-4 d-none d-xl-block">--}}
-{{--                                    <div class="pramotion-banner1">--}}
-{{--                                        <img src="assets/images/menu-img.webp" class="img-fluid" alt="" />--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <!-- end col-3 -->--}}
-{{--                            </div>--}}
-{{--                            <!-- end row -->--}}
-{{--                        </div>--}}
-
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
-                            Clothing
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="cart.html">Dresses</a></li>
-                            <li><a class="dropdown-item" href="wishlist.html">Tops</a></li>
-                            <li><a class="dropdown-item" href="product-details.html">Tshirts</a></li>
-                            <li><a class="dropdown-item" href="payment-method.html">Pants</a></li>
-                            <li><a class="dropdown-item" href="billing-details.html">Skirts</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html" style="color: red">SALE</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
-                            <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
-                            <li><a class="dropdown-item" href="product-details.html">Product Details</a></li>
-                            <li><a class="dropdown-item" href="payment-method.html">Payment Method</a></li>
-                            <li><a class="dropdown-item" href="billing-details.html">Billing Details</a></li>
-                            <li><a class="dropdown-item" href="address.html">Addresses</a></li>
-                            <li><a class="dropdown-item" href="shop-grid.html">Shop Grid</a></li>
-                            <li><a class="dropdown-item" href="shop-grid-type-4.html">Shop Grid 4</a></li>
-                            <li><a class="dropdown-item" href="shop-grid-type-5.html">Shop Grid 5</a></li>
-                            <li><a class="dropdown-item" href="search.html">Search</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
-                            Account
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="account-dashboard.html">Dashboard</a></li>
-                            <li><a class="dropdown-item" href="account-orders.html">My Orders</a></li>
-                            <li><a class="dropdown-item" href="account-profile.html">My Profile</a></li>
-                            <li><a class="dropdown-item" href="account-edit-profile.html">Edit Profile</a></li>
-                            <li><a class="dropdown-item" href="account-saved-address.html">Addresses</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                <div class="col-auto">
+                    <div class="header-links">
+                        <ul>
+                            <li class="d-none d-md-inline-block"><a href="shop.html">Track Your Order</a></li>
+                            <li class="d-none d-md-inline-block">
+                                <div class="dropdown-link">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="true">English</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                        <li>
+                                            <a href="#">German</a>
+                                            <a href="#">French</a>
+                                            <a href="#">Italian</a>
+                                            <a href="#">Latvian</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li><a class="dropdown-item" href="authentication-login.html">Login</a></li>
-                            <li><a class="dropdown-item" href="authentication-register.html">Register</a></li>
-                            <li><a class="dropdown-item" href="authentication-reset-password.html">Password</a></li>
+                            <li>
+                                <div class="dropdown-link">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="true">USD</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                                        <li>
+                                            <a href="#">GBP</a>
+                                            <a href="#">EUR</a>
+                                            <a href="#">CAD</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="social-links">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
-                            Blog
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                            <li><a class="dropdown-item" href="blog-read.html">Blog Read</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <ul class="navbar-nav secondary-menu flex-row">
-            <li class="nav-item">
-                <a class="nav-link dark-mode-icon" href="javascript:;">
-                    <div class="mode-icon">
-                        <i class="bi bi-moon"></i>
+    </div>
+    <div class="menu-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <div class="header-logo">
+                        <a href="home-organic-farm.html"><img src="assets/img/logo.svg" alt="Frutin"></a>
                     </div>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
-            </li>
-            <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
-                <a class="nav-link position-relative" href="javascript:;">
-                    <div class="cart-badge">8</div>
-                    <i class="bi bi-basket2"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="account-dashboard.html"><i class="bi bi-person-circle"></i></a>
-            </li>
-        </ul>
-    </nav>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <form class="header-search">
+                        <input type="text" placeholder="Enter Keyword">
+                        <button type="submit"><i class="far fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-auto">
+                    <div class="header-icons">
+                        <a href="contact.html" class="icon-btn d-none d-sm-block"><i class="far fa-user"></i></a>
+                        <a href="wishlist.html" class="icon-btn d-none d-sm-block">
+                            <span class="badge">3</span>
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <button type="button" class="icon-btn sideMenuToggler">
+                            <span class="badge">5</span>
+                            <i class="far fa-cart-shopping"></i>
+                        </button>
+                        <button type="button" class="icon-btn sideMenuInfo d-none d-lg-block"><i class="fal fa-grid"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sticky-wrapper">
+        <!-- Main Menu Area -->
+        <div class="menu-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-3 d-none d-xl-block">
+                        <div class="category-menu-wrap">
+                            <a class="menu-expand" href="#"><i class="far fa-bars"></i>Browse by Categories</a>
+                            <nav class="category-menu">
+                                <ul>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_1.svg" alt="Icon">Fresh Vegetables</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_2.svg" alt="Icon">Vege Pack</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="shop.html"><img src="assets/img/icon/category_1_3.svg" alt="Icon">Fresh Fruits</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="shop.html"><img src="assets/img/icon/category_1_4.svg" alt="Icon">Salad</a></li>
+                                            <li><a href="shop.html"><img src="assets/img/icon/category_1_5.svg" alt="Icon">Butter & Egg</a></li>
+                                            <li><a href="shop.html"><img src="assets/img/icon/category_1_6.svg" alt="Icon">Milk Cream</a></li>
+                                            <li><a href="shop.html"><img src="assets/img/icon/category_1_7.svg" alt="Icon">Fresh Meat</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_4.svg" alt="Icon">Salad</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_5.svg" alt="Icon">Butter & Egg</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_6.svg" alt="Icon">Milk Cream</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_7.svg" alt="Icon">Fresh Meat</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_8.svg" alt="Icon">Fresh Fish</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_9.svg" alt="Icon">Coconut Oil</a></li>
+                                    <li><a href="shop.html"><img src="assets/img/icon/category_1_10.svg" alt="Icon">Bread & Bakery</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu menu-style1 d-none d-lg-inline-block">
+                            <ul>
+                                <li class="menu-item-has-children">
+                                    <a href="home-organic-farm.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="home-organic-farm.html">Organic Farm</a></li>
+                                        <li><a href="home-organic-food.html">Organic Food</a></li>
+                                        <li><a href="home-mega-shop.html">Mega Shop</a></li>
+                                        <li><a href="home-organic-farming.html">Organic Farming</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Service</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="service.html">Service</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Shop</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="shop-details.html">Shop Details</a></li>
+                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li><a href="project.html">Project Gallery</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                        <li><a href="faq.html">Faq Page</a></li>
+                                        <li><a href="error.html">Error Page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                    </div>
+                    <div class="col-auto">
+                        <div class="call-btn">
+                            <div class="box-icon">
+                                <i class="far fa-headphones"></i>
+                            </div>
+                            <div class="media-body">
+                                <p class="box-subtitle">Call Us 24/7</p>
+                                <h3 class="box-title"><a href="tel:+1632543654">(+163)-254-3654</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
-<!--end top header-->
+
+<!--==============================
+Hero Areahomme
+==============================-->
+
+
 
 
 {{ $slot }}
 
 
-<!--start footer-->
-<section class="footer-section bg-section-2 section-padding">
-    <div class="container">
-        <div class="row row-cols-1 row-cols-lg-4 g-4">
-            <div class="col">
-                <div class="footer-widget-6">
-                    <img src="assets/images/logo.webp" class="logo-img mb-3" alt="">
-                    <h5 class="mb-3 fw-bold">About Us</h5>
-                    <p class="mb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-
-                    <a class="link-dark" href="javascript:;">Read More</a>
+{{--//Footer Area--}}
+<div class="footer-top-newsletter">
+    <div class="container z-index-common">
+        <div class="newsletter-wrap">
+            <div class="newsletter-content">
+                <div class="email-icon">
+                    <img src="assets/img/icon/email_2.svg" alt="Icon">
                 </div>
+                <h4 class="newsletter-title">Sign Up to Get Updates & News About Us.</h4>
             </div>
-            <div class="col">
-                <div class="footer-widget-7">
-                    <h5 class="mb-3 fw-bold">Explore</h5>
-                    <ul class="widget-link list-unstyled">
-                        <li><a href="javascript:;">Fashion</a></li>
-                        <li><a href="javascript:;">Women</a></li>
-                        <li><a href="javascript:;">Furniture</a></li>
-                        <li><a href="javascript:;">Shoes</a></li>
-                        <li><a href="javascript:;">Topwear</a></li>
-                        <li><a href="javascript:;">Brands</a></li>
-                        <li><a href="javascript:;">Kids</a></li>
-                    </ul>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email Address" required="">
                 </div>
-            </div>
-            <div class="col">
-                <div class="footer-widget-8">
-                    <h5 class="mb-3 fw-bold">Company</h5>
-                    <ul class="widget-link list-unstyled">
-                        <li><a href="javascript:;">About Us</a></li>
-                        <li><a href="javascript:;">Contact Us</a></li>
-                        <li><a href="javascript:;">FAQ</a></li>
-                        <li><a href="javascript:;">Privacy</a></li>
-                        <li><a href="javascript:;">Terms</a></li>
-                        <li><a href="javascript:;">Complaints</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col">
-                <div class="footer-widget-9">
-                    <h5 class="mb-3 fw-bold">Follow Us</h5>
-                    <div class="social-link d-flex align-items-center gap-2">
-                        <a href="javascript:;"><i class="bi bi-facebook"></i></a>
-                        <a href="javascript:;"><i class="bi bi-twitter"></i></a>
-                        <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
-                        <a href="javascript:;"><i class="bi bi-youtube"></i></a>
-                        <a href="javascript:;"><i class="bi bi-instagram"></i></a>
-                    </div>
-                    <div class="mb-3 mt-3">
-                        <h5 class="mb-0 fw-bold">Support</h5>
-                        <p class="mb-0 text-muted">support@example.com</p>
-                    </div>
-                    <div class="">
-                        <h5 class="mb-0 fw-bold">Toll Free</h5>
-                        <p class="mb-0 text-muted">1800- 8xx 2xx</p>
-                    </div>
-                </div>
-            </div>
-        </div><!--end row-->
-        <div class="my-5"></div>
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <h5 class="fw-bold mb-3">Download Mobile App</h5>
-                </div>
-                <div class="app-icon d-flex flex-column flex-sm-row align-items-center justify-content-center gap-2">
-                    <div>
-                        <a href="javascript:;">
-                            <img src="assets/images/play-store.webp" width="160" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="javascript:;">
-                            <img src="assets/images/apple-store.webp" width="160" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div><!--end row-->
-
+                <button type="submit" class="th-btn">Subscribe</button>
+            </form>
+        </div>
     </div>
-</section>
-<!--end footer-->
-
-<footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
-    <p class="mb-0 text-muted">© 2022. www.example.com | All rights reserved.</p>
+</div>
+<footer class="footer-wrapper footer-layout3">
+    <div class="shape-mockup" data-top="0" data-left="0"><img src="assets/img/shape/footer_shape_3.png" alt="shape"></div>
+    <div class="shape-mockup" data-bottom="0" data-right="0"><img src="assets/img/shape/footer_shape_4.png" alt="shape"></div>
+    <div class="widget-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-xl-auto">
+                    <div class="widget footer-widget">
+                        <div class="th-widget-about">
+                            <div class="about-logo">
+                                <a href="home-organic-farm.html"><img src="assets/img/logo-footer.svg" alt="Frutin"></a>
+                            </div>
+                            <p class="about-text">We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.</p>
+                            <div class="th-social">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title"><img src="assets/img/theme-img/title_icon.svg" alt="Icon">Categories</h3>
+                        <div class="menu-all-pages-container">
+                            <ul class="menu">
+                                <li><a href="shop.html">Fresh Vegetable</a></li>
+                                <li><a href="shop.html">Natural Fruits</a></li>
+                                <li><a href="shop.html">Dairy Products</a></li>
+                                <li><a href="shop.html">Tea & Coffee</a></li>
+                                <li><a href="shop.html">Meat and Fish</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title"><img src="assets/img/theme-img/title_icon.svg" alt="Icon">Quick Links</h3>
+                        <div class="menu-all-pages-container">
+                            <ul class="menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="project.html">Portfolio</a></li>
+                                <li><a href="faq.html">Help & FAQs</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto">
+                    <div class="widget footer-widget">
+                        <h3 class="widget_title"><img src="assets/img/theme-img/title_icon.svg" alt="Icon">Contact Us</h3>
+                        <div class="th-widget-contact">
+                            <div class="info-box">
+                                <div class="info-box_icon">
+                                    <i class="fas fa-location-dot"></i>
+                                </div>
+                                <p class="info-box_text">8502 Preston Rd. Inglewood, Maine 98380</p>
+                            </div>
+                            <div class="info-box">
+                                <div class="info-box_icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <p class="info-box_text">
+                                    <a href="tel:+16326543564" class="info-box_link">+(163)-2654-3564</a>
+                                    <a href="tel:+16326545432" class="info-box_link">+(163)-2654-5432</a>
+                                </p>
+                            </div>
+                            <div class="info-box">
+                                <div class="info-box_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <p class="info-box_text">
+                                    <a href="mailto:help24/7@frutin.com" class="info-box_link">help24/7@frutin.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg_1.png">
+        <div class="container">
+            <div class="row gy-2 align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="home-organic-farm.html">Frutin</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="payment-img">
+                        <img src="assets/img/normal/payment_methods.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
+<!--********************************
+        Code End  Here
+******************************** -->
 
-<!--start cart-->
-<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
-     aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header bg-section-2">
-        <h5 class="mb-0 fw-bold" id="offcanvasRightLabel">8 items in the cart</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <div class="cart-list">
 
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/01.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/02.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/03.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/04.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/05.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/06.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/07.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/08.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/09.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex align-items-center gap-3">
-                <div class="bottom-product-img">
-                    <a href="product-details.html">
-                        <img src="assets/images/new-arrival/10.webp" width="60" alt="">
-                    </a>
-                </div>
-                <div class="">
-                    <h6 class="mb-0 fw-light mb-1">Product Name</h6>
-                    <p class="mb-0"><strong>1 X $59.00</strong>
-                    </p>
-                </div>
-                <div class="ms-auto fs-5">
-                    <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-footer p-3 border-top">
-        <div class="d-grid">
-            <button type="button" class="btn btn-lg btn-dark btn-ecomm px-5 py-3">Checkout</button>
-        </div>
-    </div>
 
+<!-- Scroll To Top -->
+<div class="scroll-top">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+    </svg>
 </div>
-<!--end cat-->
 
+<!--==============================
+All Js File
+============================== -->
+<!-- Jquery -->
+<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+<!-- Swiper Js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Magnific Popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Counter Up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- Range Slider -->
+<script src="assets/js/jquery-ui.min.js"></script>
+<!-- Isotope Filter -->
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
 
-<!--start quick view-->
-
-<!-- Modal -->
-<div class="modal fade" id="QuickViewModal" tabindex="-1">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content rounded-0">
-
-            <div class="modal-body">
-                <div class="row g-3">
-                    <div class="col-12 col-xl-6">
-
-                        <div class="wrap-modal-slider">
-
-                            <div class="slider-for">
-                                <div>
-                                    <img src="assets/images/product-images/01.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/02.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/03.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/04.jpg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-
-                            <div class="slider-nav mt-3">
-                                <div>
-                                    <img src="assets/images/product-images/01.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/02.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/03.jpg" alt="" class="img-fluid">
-                                </div>
-                                <div>
-                                    <img src="assets/images/product-images/04.jpg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-xl-6">
-                        <div class="product-info">
-                            <h4 class="product-title fw-bold mb-1">Check Pink Kurta</h4>
-                            <p class="mb-0">Women Pink & Off-White Printed Kurta with Palazzos</p>
-                            <div class="product-rating">
-                                <div class="hstack gap-2 border p-1 mt-3 width-content">
-                                    <div><span class="rating-number">4.8</span><i class="bi bi-star-fill ms-1 text-success"></i></div>
-                                    <div class="vr"></div>
-                                    <div>162 Ratings</div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="product-price d-flex align-items-center gap-3">
-                                <div class="h4 fw-bold">$458</div>
-                                <div class="h5 fw-light text-muted text-decoration-line-through">$2089</div>
-                                <div class="h4 fw-bold text-danger">(70% off)</div>
-                            </div>
-                            <p class="fw-bold mb-0 mt-1 text-success">inclusive of all taxes</p>
-
-                            <div class="more-colors mt-3">
-                                <h6 class="fw-bold mb-3">More Colors</h6>
-                                <div class="d-flex align-items-center gap-2 flex-wrap">
-                                    <div class="color-box bg-red"></div>
-                                    <div class="color-box bg-primary"></div>
-                                    <div class="color-box bg-yellow"></div>
-                                    <div class="color-box bg-purple"></div>
-                                    <div class="color-box bg-green"></div>
-                                </div>
-                            </div>
-
-                            <div class="size-chart mt-3">
-                                <h6 class="fw-bold mb-3">Select Size</h6>
-                                <div class="d-flex align-items-center gap-2 flex-wrap">
-                                    <div class="">
-                                        <button type="button" class="rounded-0">XS</button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="rounded-0">S</button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="rounded-0">M</button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="rounded-0">L</button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="rounded-0">XL</button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="rounded-0">XXL</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cart-buttons mt-3">
-                                <div class="buttons d-flex flex-column gap-3 mt-4">
-                                    <a href="javascript:;" class="btn btn-lg btn-dark btn-ecomm px-5 py-3 flex-grow-1"><i
-                                            class="bi bi-basket2 me-2"></i>Add to Bag</a>
-                                    <a href="javascript:;" class="btn btn-lg btn-outline-dark btn-ecomm px-5 py-3"><i
-                                            class="bi bi-suit-heart me-2"></i>Wishlist</a>
-                                </div>
-                            </div>
-                            <hr class="my-3">
-                            <div class="product-share">
-                                <h6 class="fw-bold mb-3">Share This Product</h6>
-                                <div class="d-flex align-items-center gap-2 flex-wrap">
-                                    <div class="">
-                                        <button type="button" class="btn-social bg-twitter"><i class="bi bi-twitter"></i></button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="btn-social bg-facebook"><i class="bi bi-facebook"></i></button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="btn-social bg-linkden"><i class="bi bi-linkedin"></i></button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="btn-social bg-youtube"><i class="bi bi-youtube"></i></button>
-                                    </div>
-                                    <div class="">
-                                        <button type="button" class="btn-social bg-pinterest"><i class="bi bi-pinterest"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!--end row-->
-            </div>
-
-        </div>
-    </div>
-</div>
-<!--end quick view-->
-
-
-<!--Start Back To Top Button-->
-<a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
-<!--End Back To Top Button-->
-
-
-<!-- JavaScript files -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/plugins/slick/slick.min.js"></script>
+<!-- Main Js File -->
 <script src="assets/js/main.js"></script>
-<script src="assets/js/index.js"></script>
-<script src="assets/js/loader.js"></script>
-
 </body>
 
 </html>
